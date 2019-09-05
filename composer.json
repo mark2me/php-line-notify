@@ -1,0 +1,16 @@
+{
+  "name": "mark2me/php-line-notify",
+  "description": "PHP Line Notify",
+  "keywords": ["line", "notify", "line notify"],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5",
+    "curl/curl": ">=2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "SIG\\Line\\": "src"
+    }
+  }
+}
